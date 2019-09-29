@@ -1,0 +1,147 @@
+@import url('./../css/fonts.css');
+*{
+	font-family: 'OpenSans-Regular';
+	padding: 0;
+	margin: 0;	
+	font-size: 14px;
+	list-style-type: none;
+	text-decoration: none;
+	outline: none;
+	font-style: normal;
+	font-weight: normal;
+
+}
+input{
+	border: 1px solid #d8d8d8;
+}
+select, input, textarea, button{
+	outline: none;
+}
+button{ 
+	cursor: pointer;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.flip-clock-label{
+	display: none;
+}
+.bids-content{
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.clock{
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+	width: auto;
+	margin-bottom: 40px;
+}
+.bids-left{
+	width: 70%;
+}
+.bids-left-head{
+	margin-bottom: 40px;
+}
+.bids-left-head-big{
+	font-size: 30px;
+	display: block;
+	font-weight: bold;
+}
+.bids-left-head-small{
+
+}
+.bids-left-availables-span{
+	font-size: 30px;
+	font-weight: bold;
+}
+.bids-left-availables{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.bids-left-availables-img{
+	width: 100%;
+	display: block;
+}
+.bids-left-availables-link{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 45%;
+	height: 230px;
+	position: relative;
+	transition: all 0.2s ease-out;
+}
+.bids-left-availables-link:hover > .bids-left-availables-link-hidden{
+	opacity: 1;
+	transition: all 0.2s ease-out;
+}
+.bids-left-availables-link-hidden{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: rgba(255,255,255,0.8);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 0.2s ease-out;
+}
+.bids-left-availables-link-hidden-wrap{
+	width: 100%;
+}
+.bids-left-availables-link-hidden-input{
+	padding: 7px 10px;
+	border-radius: 3px;
+	box-sizing: border-box;
+	width: 70%;	
+	display: block;
+	margin: 0px auto 7px;
+}
+.bids-left-availables-link-hidden-link{
+	background: #169bd5;
+	padding: 7px 10px;
+	border-radius: 3px;
+	box-sizing: border-box;
+	width: 70%;
+	color: #fff;
+	text-align: center;
+	display: block;	
+	margin: 0 auto;
+}
+.bids-right{
+	background: #f2f2f2;
+	padding: 20px;
+	box-sizing: border-box;
+	width: 28%;
+}
+.bids-right-info{
+
+}
+.bids-right-info-number{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+.bids-right-info-count{
+	margin-bottom: 15px;
+	display: block;
+}
+.bids-right-info-list{
+	padding: 15px 0;
+	border-top: 1px solid #cdcdcd;
+	border-bottom: 1px solid #cdcdcd;
+}
+.bids-right-info-list-item{
+
+}
+.bids-right-info-max{
+	margin-top: 15px;
+}
+
