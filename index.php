@@ -39,7 +39,7 @@
 					<div class="bids-right">
 						<div class="bids-right-info">
 							<h2 class="bids-right-info-number">Номер игры: 1995</h2>
-							<span class="bids-right-info-count">Сделано ставок: 15</span>
+							<span class="bids-right-info-count">Сделано ставок: <span class="bids-right-info-count-span">0</span></span>
 							<div class="bids-right-info-list">								
 							</div>
 							<div class="bids-right-info-max">максимальная ставка: $<span class="bids-right-info-max-sum">0</span></div>

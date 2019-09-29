@@ -11,10 +11,14 @@ $(".bids-left-availables-link-hidden-link").on('click', function(){
 	var el = "<div class='bids-right-info-list-item'>"+name + " - $" + "<span class='bids-right-info-list-item-sum'>" + sum + "</span>" + "</div>";
 	$(".bids-right-info-list").prepend(el);
 	var max=0;
+	var count=0;
 	$(".bids-right-info-list-item-sum").each(function(){
 		var num=Number($(this).text());		
 		if(num > max) max=num;
+		count++;
 	});
+	
+	$(".bids-right-info-count-span").text(count);
 	$(".bids-right-info-max-sum").text(max);
 	return false;
 });
