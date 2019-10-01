@@ -16,8 +16,7 @@ $(".bids-left-availables-link-hidden-link").on('click', function(){
 		var num=Number($(this).text());		
 		if(num > max) max=num;
 		count++;
-	});
-	
+	});	
 	$(".bids-right-info-count-span").text(count);
 	$(".bids-right-info-max-sum").text(max);
 	return false;

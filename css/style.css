@@ -21,9 +21,110 @@ button{
 	cursor: pointer;
 }
 .container{
-	width: 1170px;
+	width: 1280px;
 	margin: 0 auto;
 }
+header{
+	background: #ecdfbc;
+	padding: 11px 0;
+}
+.header-content{
+	display: flex;
+	justify-content: space-between;
+}
+.header-left-name-bold{
+	font-weight: bold;
+}
+.header-right-link{
+	color: #000;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-left: 60px;
+}
+.header-right-link:first-child{
+	margin-left: 0px;
+}
+.header-right-link:hover{
+	text-decoration: none;
+}
+
+#banners{
+
+}
+.banners-img-text.first{
+	width: 81%;
+	display: block;
+	margin: 50px auto;
+}
+.banners-img-text.second{
+	width: 100%;
+	display: block;
+	margin: 0 auto 42px;
+}
+#steps{
+	margin-bottom: 36px;
+}
+.steps-content{
+	display: flex;
+	justify-content: space-between;
+}
+.steps-item{
+	position: relative;
+	margin-left: 40px;
+}
+.steps-item.first{
+
+}
+.steps-item.first:before{
+	content: "1";
+	width: 25px;
+	height: 25px;
+	display: flex;
+	left: -35px;
+	justify-content: center;
+	align-items: center;
+	background: #cbb677;
+	position: absolute;
+	font-weight: bold;
+}
+.steps-item.second{
+
+}
+.steps-item.second:before{
+	content: "2";
+	width: 25px;
+	height: 25px;
+	display: flex;
+	left: -35px;
+	justify-content: center;
+	align-items: center;
+	background: #cbb677;
+	position: absolute;
+	font-weight: bold;
+}
+.steps-item.third{
+
+}
+.steps-item.third:before{
+	content: "3";
+	width: 25px;
+	height: 25px;
+	display: flex;
+	left: -35px;
+	justify-content: center;
+	align-items: center;
+	background: #cbb677;
+	position: absolute;
+	font-weight: bold;
+}
+.steps-item-brown{
+	color: #795928;
+}
+.steps-item-bold{
+	font-weight: bold;
+}
+
+
 .flip-clock-label{
 	display: none;
 }
@@ -44,17 +145,15 @@ button{
 }
 .bids-left-head{
 	margin-bottom: 40px;
+	font-size: 26px;
+	display: block;	
 }
-.bids-left-head-big{
-	font-size: 30px;
-	display: block;
+.bids-left-head-bold{
 	font-weight: bold;
-}
-.bids-left-head-small{
-
+	font-size: 26px;
 }
 .bids-left-availables-span{
-	font-size: 30px;
+	font-size: 22px;
 	font-weight: bold;
 }
 .bids-left-availables{

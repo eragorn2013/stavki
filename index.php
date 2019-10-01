@@ -5,12 +5,51 @@
 </head>
 <body>
 	<div class="wrapper">
+		<header>
+			<div class="container">
+				<div class="content header-content">
+					<div class="header-left">
+						<div class="header-left-name">
+							Привет, <span class="header-left-name-bold">PROman</span>
+						</div>
+					</div>
+					<div class="header-right">
+						<a class="header-right-link balance" href="#">Баланс: $ <span class="header-right-link-sum">22.56</span></a>
+						<a class="header-right-link settings" href="#">Настройки</a>
+						<a class="header-right-link exit" href="#">Выйти</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section id="banners">
+			<div class="container">
+				<div class="content">
+					<img class="banners-img-text first" src="img/text.jpg" alt="">
+					<img class="banners-img-text second" src="img/1000000.jpg" alt="">
+				</div>
+			</div>
+		</section>
+		<section id="steps">
+			<div class="container">
+				<div class="content steps-content">
+					<div class="steps-item first">
+						Выбирайте картинку, которая, как вам кажется, <span class="steps-item-bold">наберет меньше ставок</span>
+					</div>
+					<div class="steps-item second">
+						Делайте свою ставку. Чем она выше, тем больше ваша доля в случае выйгрыша.<br>
+						<span class="steps-item-brown">Каждая ставка имеет шанс выйграть <span class="steps-item-bold">джекопот</span></span>
+					</div>
+					<div class="steps-item third">
+						До истечения времени вы можете увеличить ставку или изменить свой выбор
+					</div>
+				</div>
+			</div>
+		</section>
 		<section id="bids">
 			<div class="container">
-				<h1 class="bids-left-head">
-					<span class="bids-left-head-big">Кто победит?</span>
-					<span class="bids-left-head-small">Выбери один из доступных вариантов и выигрывай</span>
-				</h1>
+				<h2 class="bids-left-head">
+					<span class="bids-left-head-bold">Игра № 9281928</span> уже идет - угадай какая картинка наберет <span class="bids-left-head-bold">меньше</span> ставок и выйграй					
+				</h2>
 				<div class="content bids-content">
 					<div class="bids-left">												
 						<div class="clock"></div>
