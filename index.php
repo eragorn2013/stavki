@@ -85,22 +85,7 @@
 						<div class="bids-left-info">Вам нужно угадать картинку, кторая наберет <span class="bids-left-info-bold">наименьшее</span> количество ставок, тогда вы окажитесь в победителях</div>
 						<div class="bids-left-people">В данный момент за игрой наблюдает <span class="bids-left-info-bold">1 532 человека</span></div>
 						<div class="bids-left-list-process">
-							<div class="bids-left-list-process-item">
-								<span class="bids-left-list-process-item-bold">Киндомраш</span>
-								<span class="bids-left-list-process-item-normal">только что поставил $ 0.1 в этой игре</span>
-							</div>
-							<div class="bids-left-list-process-item">
-								<span class="bids-left-list-process-item-bold">Autobot</span>
-								<span class="bids-left-list-process-item-normal">только что поставил $ 0.3 в этой игре</span>
-							</div>
-							<div class="bids-left-list-process-item">
-								<span class="bids-left-list-process-item-bold">Distinyshadowwkeep</span>
-								<span class="bids-left-list-process-item-normal">только что поставил $ 0.9 в этой игре</span>
-							</div>
-							<div class="bids-left-list-process-item">
-								<span class="bids-left-list-process-item-bold">Romses777</span>
-								<span class="bids-left-list-process-item-normal">только что поставил $ 0.1 в этой игре</span>
-							</div>
+							
 						</div>
 					</div>
 					<div class="bids-right">

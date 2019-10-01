@@ -57,11 +57,19 @@ $(".bids-left-availables-link-hidden-link").on('click', function(){
 	var el = "<div class='bids-right-info-list-item'><span class='bids-right-info-list-item-sum'>$ " + sum + "</span>"+name+ "</div>";
 	$(".bids-right-info-list").prepend(el);
 	$(".bids-right-info-bank-span").text(bank.toFixed(2));
-	$(".bids-right-info").getNiceScroll().resize()	
+	$(".bids-right-info").getNiceScroll().resize();
+	$(".bids-left-list-process").getNiceScroll().resize();	
+	var elItem="<div class='bids-left-list-process-item'><span class='bids-left-list-process-item-bold'>"+name+"</span> <span class='bids-left-list-process-item-normal'>только что поставил $ "+sum+" в этой игре</span></div>";
+	$(".bids-left-list-process").prepend(elItem);
 	return false;
 });
 $(".bids-right-info").niceScroll({
-		cursorcolor:"#c0780a",
-		cursoropacitymin: 1,
-		scrollspeed: 30,
-	});	
+	cursorcolor:"#c0780a",
+	cursoropacitymin: 1,
+	scrollspeed: 30,
+});	
+$(".bids-left-list-process").niceScroll({
+	cursorcolor:"#fff",
+	cursoropacitymin: 0,
+	scrollspeed: 30,
+});	
