@@ -51,47 +51,76 @@
 					<span class="bids-left-head-bold">Игра № 9281928</span> уже идет - угадай какая картинка наберет <span class="bids-left-head-bold">меньше</span> ставок и выйграй					
 				</h2>
 				<div class="content bids-content">
-					<div class="bids-left">												
-						<div class="clock"></div>
+					<div class="bids-left">			
 						<div class="bids-left-availables">
 							<div class="bids-left-availables-link first" href="">
-								<img class="bids-left-availables-img" src="img/3.jpg" alt="">
+								<div class="bids-left-availables-link-wrap">
+									<img class="bids-left-availables-img" src="img/3.jpg" alt="">
+								</div>
+								<a class="bids-left-availables-link-hidden-link" data-user="Вася" href="#">Пополнить</a>
 								<div class="bids-left-availables-link-hidden">
 									<div class="bids-left-availables-link-hidden-wrap">
-										<input class="bids-left-availables-link-hidden-input" type="text" name="second" value="0.01">
-										<a class="bids-left-availables-link-hidden-link" data-user="Вася" href="#">Пополнить</a>
+										<div class="bids-left-availables-link-hidden-wrap-visible">
+											$ <input class="bids-left-availables-link-hidden-input-active first" type="text" name="first" value="0.01">
+										</div>										
+										<input class="bids-left-availables-link-hidden-input first" type="text" name="first" value="0.01">			
 									</div>
 								</div>
-							</div>
-							<span class="bids-left-availables-span">VS</span>
+							</div>							
 							<div class="bids-left-availables-link second" href="">
-								<img class="bids-left-availables-img" src="img/4.jpg" alt="">
+								<div class="bids-left-availables-link-wrap">
+									<img class="bids-left-availables-img" src="img/4.jpg" alt="">
+								</div>
+								<a class="bids-left-availables-link-hidden-link" data-user="Вася" href="#">Пополнить</a>
 								<div class="bids-left-availables-link-hidden">
 									<div class="bids-left-availables-link-hidden-wrap">
-										<input class="bids-left-availables-link-hidden-input" type="text" name="second" value="0.01">
-										<a class="bids-left-availables-link-hidden-link" data-user="Вася" href="#">Пополнить</a>
+										<div class="bids-left-availables-link-hidden-wrap-visible">
+											$ <input class="bids-left-availables-link-hidden-input-active second" type="text" name="second" value="0.01">
+										</div>										
+										<input class="bids-left-availables-link-hidden-input second" type="text" name="second" value="0.01">		
 									</div>
 								</div>
 							</div>
 						</div>
+						<div class="bids-left-info">Вам нужно угадать картинку, кторая наберет <span class="bids-left-info-bold">наименьшее</span> количество ставок, тогда вы окажитесь в победителях</div>
+						<div class="bids-left-people">В данный момент за игрой наблюдает <span class="bids-left-info-bold">1 532 человека</span></div>
+						<div class="bids-left-list-process">
+							<div class="bids-left-list-process-item">
+								<span class="bids-left-list-process-item-bold">Киндомраш</span>
+								<span class="bids-left-list-process-item-normal">только что поставил $ 0.1 в этой игре</span>
+							</div>
+							<div class="bids-left-list-process-item">
+								<span class="bids-left-list-process-item-bold">Autobot</span>
+								<span class="bids-left-list-process-item-normal">только что поставил $ 0.3 в этой игре</span>
+							</div>
+							<div class="bids-left-list-process-item">
+								<span class="bids-left-list-process-item-bold">Distinyshadowwkeep</span>
+								<span class="bids-left-list-process-item-normal">только что поставил $ 0.9 в этой игре</span>
+							</div>
+							<div class="bids-left-list-process-item">
+								<span class="bids-left-list-process-item-bold">Romses777</span>
+								<span class="bids-left-list-process-item-normal">только что поставил $ 0.1 в этой игре</span>
+							</div>
+						</div>
 					</div>
 					<div class="bids-right">
-						<div class="bids-right-info">
-							<h2 class="bids-right-info-number">Номер игры: 1995</h2>
-							<span class="bids-right-info-count">Сделано ставок: <span class="bids-right-info-count-span">0</span></span>
+						<h2 class="bids-right-info-timer"><span class="bids-right-info-timer-time">0</span> до окончания игры</h2>
+						<div class="bids-right-info">							
+							<span class="bids-right-info-count"><span class="bids-right-info-count-span">15</span> игроков</span>
+							<span class="bids-right-info-bank">$ <span class="bids-right-info-bank-span">0</span> банк</span>
 							<div class="bids-right-info-list">								
-							</div>
-							<div class="bids-right-info-max">максимальная ставка: $<span class="bids-right-info-max-sum">0</span></div>
+							</div>							
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 	</div>
-	<link rel="stylesheet" href="js/flipclock/compiled/flipclock.css">
+	<link rel="stylesheet" type="text/css" href="js/ion/css/ion.rangeSlider.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css?2909191222">
-	<script src="js/jquery/jquery-3.4.1.js"></script>
-	<script src="js/flipclock/compiled/flipclock.min.js"></script>
+	<script src="js/jquery/jquery-3.4.1.js"></script>	
+	<script src="js/ion/js/ion.rangeSlider.min.js"></script>
+	<script src="js/nicescroll/jquery.nicescroll.min.js"></script>
 	<script src="js/my.js?2409191705"></script>	
 </body>
 </html>

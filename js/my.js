@@ -1,23 +1,67 @@
-var clock = $('.clock').FlipClock({
+/*var clock = $('.clock').FlipClock({
 	autoStart: false,	
 });
 clock.setCountdown(true);
 clock.setTime(30);
-clock.start();
+clock.start();*/
 
+$(".bids-left-availables-link-hidden-input.first").ionRangeSlider({
+	prefix: "$ ",
+    min: 0,
+    max: 100,
+    from: 0.01,
+    step: 0.01,
+    hide_from_to: true,
+    hide_min_max: true,
+    onChange: function (data) { 
+    	console.log(data.from);   	
+    	$('.bids-left-availables-link-hidden-input-active.first').attr('value', data.from);
+    }
+});
+$(".bids-left-availables-link-hidden-input.second").ionRangeSlider({
+	prefix: "$ ",
+    min: 0,
+    max: 100,
+    from: 0.01,
+    step: 0.01,
+    hide_from_to: true,
+    hide_min_max: true,
+    onChange: function (data) { 
+    	console.log(data.from);   	
+    	$('.bids-left-availables-link-hidden-input-active.second').attr('value', data.from);
+    }
+});
+
+var timer=11;
+$(".bids-right-info-timer-time").text(timer);
+var idInterval=setInterval(function(){
+	var currentTime=Number($(".bids-right-info-timer-time").text())-1;	
+	if(currentTime < 1) {
+		clearInterval(idInterval);		
+	};
+	if(currentTime < 10 && currentTime > 0){
+		$(".bids-right-info-timer-time").text("0"+currentTime);
+	}
+	else{
+		$(".bids-right-info-timer-time").text(currentTime);
+	}
+	
+}, 1000);
+
+var bank=0.0;
 $(".bids-left-availables-link-hidden-link").on('click', function(){
 	var name=$(this).attr('data-user');
-	var sum=$(this).prev(".bids-left-availables-link-hidden-input").val();
-	var el = "<div class='bids-right-info-list-item'>"+name + " - $" + "<span class='bids-right-info-list-item-sum'>" + sum + "</span>" + "</div>";
+	var sum=Number($(".bids-left-availables-link-hidden-input-active", $(this).next(".bids-left-availables-link-hidden")).val());
+	if(sum <= 0) return false;	
+	bank=bank+sum;
+	var el = "<div class='bids-right-info-list-item'><span class='bids-right-info-list-item-sum'>$ " + sum + "</span>"+name+ "</div>";
 	$(".bids-right-info-list").prepend(el);
-	var max=0;
-	var count=0;
-	$(".bids-right-info-list-item-sum").each(function(){
-		var num=Number($(this).text());		
-		if(num > max) max=num;
-		count++;
-	});	
-	$(".bids-right-info-count-span").text(count);
-	$(".bids-right-info-max-sum").text(max);
+	$(".bids-right-info-bank-span").text(bank.toFixed(2));
+	$(".bids-right-info").getNiceScroll().resize()	
 	return false;
 });
+$(".bids-right-info").niceScroll({
+		cursorcolor:"#c0780a",
+		cursoropacitymin: 1,
+		scrollspeed: 30,
+	});	
