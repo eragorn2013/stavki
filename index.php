@@ -21,7 +21,7 @@
 				</div>
 			</div>
 		</header>
-		<section id="banners">
+		<section id="banners" class="auth"><!-- no-auth если не авторизован -->
 			<div class="container">
 				<div class="content">
 					<img class="banners-img-text first" src="img/text.jpg" alt="">
@@ -100,6 +100,48 @@
 				</div>
 			</div>
 		</section>
+		<section id="amount">
+			<div class="container">
+				<div class="content amount-content">
+					<div class="amount-left">
+						<div class="amount-left-item"><span class="amount-left-item-bold">Игра № 9281927</span> закончена, победили Druzhba123 и выйграл $ 12.53, поставил $ 5. Также в этой игре выиграли DEN $ 3.22, Агрошкольник $ 3.01, <span class="amount-left-item-bold amount-left-item-red">Chris Pops $ 2.73</span> и The Amazing $ 2.06. Больше подробностей в <a class="amount-left-item-link" href="#">в детальных результатах игры</a></div>
+
+						<div class="amount-left-item"><span class="amount-left-item-bold">Игра № 9281926</span> закончена, победили Druzhba123 и выйграл $ 12.53, поставил $ 5. Также в этой игре выиграли DEN $ 3.22, Агрошкольник $ 3.01, Chris Pops $ 2.73 и The Amazing $ 2.06. Больше подробностей в <a class="amount-left-item-link" href="#">в детальных результатах игры</a></div>
+
+						<div class="amount-left-item"><span class="amount-left-item-bold">Игра № 9281925</span> закончена, победили Druzhba123 и выйграл $ 12.53, поставил $ 5. Также в этой игре выиграли DEN $ 3.22, Агрошкольник $ 3.01, Chris Pops $ 2.73 и The Amazing $ 2.06. Больше подробностей в <a class="amount-left-item-link" href="#">в детальных результатах игры</a></div>
+					</div>
+					<div class="amount-right">
+						<div class="amount-right-sum">
+							$ 1 982 535.31
+						</div>
+						<p class="amount-right-info">Общая сумма выигрышей на нашем сайте</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="money">
+			<div class="container">
+				<div class="content">
+					<h2 class="money-head">Деньги на счет легко завести и не менее легко вывести с него свой выигрыш</h2>
+					<div class="money-icons">
+						<span class="money-icons-text">Мы принимаем</span>
+						<span class="money-icons-icon visa"></span>
+						<span class="money-icons-icon mastercard"></span>
+						<span class="money-icons-icon maestro"></span>
+						<span class="money-icons-icon paypal"></span>
+						<span class="money-icons-icon switch"></span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="content footer-content">
+					<div class="footer-left">© 2019, «ктопобедит.рф», Все права защищены</div>
+					<div class="footer-right">Ресурс предназначен для резидентов Российской Федерации старше 18 лет</div>
+				</div>
+			</div>
+		</footer>
 	</div>
 	<link rel="stylesheet" type="text/css" href="js/ion/css/ion.rangeSlider.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css?2909191222">

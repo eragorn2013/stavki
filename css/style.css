@@ -68,13 +68,41 @@ header{
 	text-decoration: none;
 }
 
+#banners.no-auth{
+	border-top: 5px solid #cfb878;
+}
 #banners{
-
+	position: relative;
+	padding: 50px 0 0;
+}
+#banners:before{
+	content: "";
+    position: absolute;
+    width: 34px;
+    height: 24px;
+    background-image: url(../img/icons-2.png);
+    background-repeat: no-repeat;
+    background-position: -124px -8px;
+    background-size: 157px;
+    top: 0;
+    left: 0;
+}
+#banners:after{
+	content: "";
+    position: absolute;
+    width: 34px;
+    height: 24px;
+    background-image: url(../img/icons-2.png);
+    background-repeat: no-repeat;
+    background-position: -116px -47px;
+    background-size: 157px;
+    top: 0;
+    right: 0;
 }
 .banners-img-text.first{
 	width: 81%;
 	display: block;
-	margin: 50px auto;
+	margin: 0px auto 50px;
 }
 .banners-img-text.second{
 	width: 100%;
@@ -371,3 +399,146 @@ background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 
 	margin-top: 15px;
 }
 
+#amount{
+	margin-bottom: 60px;
+}
+.amount-content{
+	background-image: url('../img/bg_bottom.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	box-sizing: border-box;
+}
+.amount-left{
+	width: 64%;
+}
+.amount-left-item{
+	margin-bottom: 15px;
+}
+.amount-left-item:last-child{
+	margin-bottom: 0px;
+}
+.amount-left-item-bold{
+	font-weight: bold;
+}
+.amount-left-item-red{
+	color: #cb0305;
+}
+.amount-left-item-link{
+	text-decoration: underline;
+	font-weight: bold;
+	color: #000;
+}
+.amount-left-item-link:hover{
+	text-decoration: none;
+}
+.amount-right{
+	width: 29%;
+	text-align: center;
+}
+.amount-right-sum{
+	padding: 10px 45px;
+	font-size: 25px;
+	font-weight: bold;
+	display: inline-block;
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 15px;
+}
+.amount-right-info{
+	font-size: 20px;
+}
+
+#money{
+	padding-bottom: 60px;
+}
+.money-head{
+	font-size: 27px;
+	text-align: center;
+	margin-bottom: 40px;
+	font-family: "OpenSans-Light";
+}
+.money-icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.money-icons-text{
+	font-size: 24px;
+	font-family: "OpenSans-Light";
+	margin-right: 44px;
+}
+.money-icons-icon{
+	display: block;
+	width: 64px;
+	height: 40px;
+	background-image: url("../img/icons.png");
+	background-repeat: no-repeat;
+	background-size: 143px;
+	margin-right: 44px;
+}
+.money-icons-icon.visa{
+	background-position: -77px -4px;
+}
+.money-icons-icon.mastercard{
+	background-position: -4px -54px;
+}
+.money-icons-icon.maestro{
+	background-position: -4px -4px;
+}
+.money-icons-icon.paypal{
+	background-position: -75px -54px;
+}
+.money-icons-icon.switch{
+	background-position: -4px -102px;
+	margin-right: 0px;
+}
+
+footer{
+	border-bottom: 5px solid #cfb878;
+	position: relative;
+}
+footer:before{
+	content: "";
+	position: absolute;
+	background-image: url("../img/icons-2.png");
+	background-repeat: no-repeat;
+    background-position: -46px -3px;
+    background-size: 111px;
+    bottom: 0;
+    left: 0;
+	width: 34px;
+    height: 24px;
+}
+footer:after{
+	content: "";
+	position: absolute;
+	background-image: url("../img/icons-2.png");
+	background-repeat: no-repeat;
+    background-position: -2px -36px;
+    background-size: 111px;
+    bottom: 0;
+    right: 0;
+	width: 34px;
+    height: 24px;
+}
+.footer-content{
+	padding: 25px 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border-top: 3px solid #cfb878;
+}
+.footer-left{
+
+}
+.footer-right{
+	font-size: 12px;
+}
