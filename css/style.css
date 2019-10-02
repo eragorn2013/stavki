@@ -118,7 +118,7 @@ header{
 }
 .steps-item{
 	position: relative;
-	margin-left: 40px;
+	margin-left: 40px;	
 }
 .steps-item.first{
 
@@ -541,4 +541,871 @@ footer:after{
 }
 .footer-right{
 	font-size: 12px;
+}
+
+@media (max-width: 1180px) and (min-width:900px){
+	.container{
+		width: 900px;		
+	}
+	.irs--flat .irs-handle>i:first-child{
+		width: 18px;		
+	}
+	.irs--flat .irs-line{
+		height: 3px;		
+	}
+	.irs--flat .irs-bar{
+		height: 3px;		
+	}
+	.irs--flat .irs-handle>i:first-child{
+		top: -4px;
+	}
+	.irs{
+		width: 95%;	   
+	}
+
+	header{		
+		padding: 11px 0;
+	}	
+	.header-right-link{		
+		margin-left: 60px;
+	}
+	.header-right-link:first-child{
+		margin-left: 0px;
+	}
+	#banners.no-auth{
+		border-top: 5px solid #cfb878;
+	}
+	#banners{		
+		padding: 50px 0 0;
+	}
+	#banners:before{		
+	    width: 34px;
+	    height: 24px;	    
+	    background-position: -124px -8px;
+	    background-size: 157px;	    
+	}
+	#banners:after{		
+	    width: 34px;
+	    height: 24px;	   
+	    background-position: -116px -47px;
+	    background-size: 157px;	    
+	}
+	.banners-img-text.first{
+		width: 100%;		
+		margin: 0px auto 50px;
+	}
+	.banners-img-text.second{		
+		margin: 0 auto 42px;
+	}
+	#steps{
+		margin-bottom: 36px;
+	}	
+	.steps-item{		
+		margin-left: 40px;
+		font-size: 13px;
+	}	
+	.steps-item.first:before{
+		content: "1";
+		width: 25px;
+		height: 25px;		
+		left: -35px;		
+	}	
+	.steps-item.second:before{
+		content: "2";
+		width: 25px;
+		height: 25px;		
+		left: -35px;	
+	}	
+	.steps-item.third:before{
+		content: "3";
+		width: 25px;
+		height: 25px;		
+		left: -35px;		
+	}	
+	.clock{		
+		margin-bottom: 40px;
+	}
+	.bids-left{
+		width: 70%;			
+	}
+	.bids-left-head{
+		margin-bottom: 20px;
+		font-size: 20px;		
+	}
+	.bids-left-head-bold{		
+		font-size: 20px;
+	}
+	.bids-left-availables{
+		flex-wrap: wrap;
+	}
+	.bids-left-availables-span{
+		font-size: 22px;		
+	}
+	.bids-left-availables{		
+		padding: 20px;
+	}	
+	.bids-left-availables-link{		
+		width: 100%;  			
+	}	
+	.bids-left-availables-link.first{
+		margin-bottom: 15px;
+	}
+	.bids-left-availables-link-wrap{
+		 height: 368px;		 
+	}	
+	.bids-left-availables-link-hidden{		
+		bottom: 59px;
+		width: 100%;
+	}
+	.bids-left-availables-link-hidden-wrap{
+		width: 98%;		
+		padding: 10px 0;
+	}
+	.bids-left-availables-link-hidden-input{
+		padding: 7px 10px;
+		border-radius: 3px;		
+		width: 70%;			
+		margin: 0px auto 7px;
+	}	
+	.bids-left-availables-link-hidden-wrap-visible{
+		margin-left: 10px;
+	}
+	.bids-left-availables-link-hidden-link{		
+		padding: 14px 10px;		
+		margin: 3px auto 0;		
+		font-size: 18px;		
+		text-shadow: 0px 2px 2px #7b3e00;		
+	}
+	.bids-left-availables-link-hidden-link:hover{
+		text-shadow: 0px 1px 1px #7b3e00;		
+	}
+	.bids-left-info{		
+		padding: 0px 0 20px;		
+	}
+	.bids-left-people{			
+		padding: 7px;		
+	}	
+	.bids-left-list-process{
+		padding: 20px;		
+	    height: 100px;	    
+	}
+	.bids-left-list-process:before{		
+		width: 100%;
+		height: 40%;		
+	}
+	.bids-left-list-process-item{
+		margin-bottom: 10px;
+	}
+	.bids-left-list-process-item:last-child{
+		margin-bottom: 0px;
+	}
+	.bids-right{		
+		width: 28%;
+	}
+	.bids-right-info{		
+		padding: 20px;		
+		height: 891px;		
+	}
+
+	.bids-right-info-timer{
+		font-size: 14px;	
+		margin-bottom: 20px;
+	}
+	.bids-right-info-timer-time{		
+		font-size: 40px;		
+		line-height: 40px;
+	}
+	.bids-right-info-count,
+	.bids-right-info-bank{
+		margin-bottom: 3px;		
+		font-size: 20px;
+	}
+	.bids-right-info-count-span,
+	.bids-right-info-bank-span{
+		font-size: 20px;		
+	}
+	.bids-right-info-list{
+		padding: 15px 0;
+		
+	}
+	.bids-right-info-list-item{
+		margin-bottom: 10px;
+	}	
+	.bids-right-info-max{
+		margin-top: 15px;
+	}
+
+	#amount{
+		margin-bottom: 60px;
+	}
+	.amount-content{		
+		padding: 30px;		
+	}
+	.amount-left{
+		width: 58%;
+	}
+	.amount-left-item{
+		margin-bottom: 15px;
+	}
+	.amount-left-item:last-child{
+		margin-bottom: 0px;
+	}	
+	.amount-right{
+		width: 36%;		
+	}
+	.amount-right-sum{
+		padding: 10px 45px;
+		font-size: 25px;		
+		margin-bottom: 15px;
+	}
+	.amount-right-info{
+		font-size: 20px;
+	}
+	#money{
+		padding-bottom: 60px;
+	}
+	.money-head{
+		font-size: 24px;		
+		margin-bottom: 40px;		
+	}	
+	.money-icons-text{
+		font-size: 24px;		
+		margin-right: 44px;
+	}
+	.money-icons-icon{		
+		width: 64px;
+		height: 40px;		
+		background-size: 143px;
+		margin-right: 44px;
+	}
+	.money-icons-icon.visa{
+		background-position: -77px -4px;
+	}
+	.money-icons-icon.mastercard{
+		background-position: -4px -54px;
+	}
+	.money-icons-icon.maestro{
+		background-position: -4px -4px;
+	}
+	.money-icons-icon.paypal{
+		background-position: -75px -54px;
+	}
+	.money-icons-icon.switch{
+		background-position: -4px -102px;		
+	}
+
+	footer{
+		border-bottom: 5px solid #cfb878;		
+	}
+	footer:before{		
+	    background-position: -46px -3px;
+	    background-size: 111px;	   
+		width: 34px;
+	    height: 24px;
+	}
+	footer:after{		
+	    background-position: -2px -36px;
+	    background-size: 111px;	    
+		width: 34px;
+	    height: 24px;
+	}
+	.footer-content{
+		padding: 25px 0;		
+		border-top: 3px solid #cfb878;
+	}	
+	.footer-right{
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 920px) and (min-width:640px){
+	.container{
+		width: 640px;		
+	}
+	.irs--flat .irs-handle>i:first-child{
+		width: 18px;		
+	}
+	.irs--flat .irs-line{
+		height: 3px;		
+	}
+	.irs--flat .irs-bar{
+		height: 3px;		
+	}
+	.irs--flat .irs-handle>i:first-child{
+		top: -4px;
+	}
+	.irs{
+		width: 95%;	   
+	}
+
+	header{		
+		padding: 11px 0;
+	}	
+	.header-right-link{		
+		margin-left: 60px;
+	}
+	.header-right-link:first-child{
+		margin-left: 0px;
+	}
+	#banners.no-auth{
+		border-top: 5px solid #cfb878;
+	}
+	#banners{		
+		padding: 50px 0 0;
+	}
+	#banners:before{		
+	    width: 34px;
+	    height: 24px;	    
+	    background-position: -124px -8px;
+	    background-size: 157px;	    
+	}
+	#banners:after{		
+	    width: 34px;
+	    height: 24px;	   
+	    background-position: -116px -47px;
+	    background-size: 157px;	    
+	}
+	.banners-img-text.first{
+		width: 100%;		
+		margin: 0px auto 50px;
+	}
+	.banners-img-text.second{		
+		margin: 0 auto 42px;
+	}
+	#steps{
+		margin-bottom: 36px;
+	}	
+	.steps-content{
+		flex-wrap: wrap;
+	}
+	.steps-item{		
+		margin-left: 40px;
+		font-size: 13px;
+		margin-bottom: 20px;
+	}	
+	.steps-item.first:before{
+		content: "1";
+		width: 25px;
+		height: 25px;		
+		left: -35px;		
+	}	
+	.steps-item.second:before{
+		content: "2";
+		width: 25px;
+		height: 25px;		
+		left: -35px;	
+	}	
+	.steps-item.third:before{
+		content: "3";
+		width: 25px;
+		height: 25px;		
+		left: -35px;		
+	}	
+	.clock{		
+		margin-bottom: 40px;
+	}
+	.bids-left{
+		width: 100%;	
+		order: 2;		
+	}
+	.bids-left-head{
+		margin-bottom: 20px;
+		font-size: 20px;		
+	}
+	.bids-left-head-bold{		
+		font-size: 20px;
+	}
+	.bids-left-availables{
+		flex-wrap: wrap;
+	}
+	.bids-left-availables-span{
+		font-size: 22px;		
+	}
+	.bids-left-availables{		
+		padding: 20px;
+	}	
+	.bids-left-availables-link{		
+		width: 100%;  			
+	}	
+	.bids-left-availables-link.first{
+		margin-bottom: 15px;
+	}
+	.bids-left-availables-link-wrap{
+		 height: 368px;		 
+	}	
+	.bids-left-availables-link-hidden{		
+		bottom: 59px;
+		width: 100%;
+	}
+	.bids-left-availables-link-hidden-wrap{
+		width: 98%;		
+		padding: 10px 0;
+	}
+	.bids-left-availables-link-hidden-input{
+		padding: 7px 10px;
+		border-radius: 3px;		
+		width: 70%;			
+		margin: 0px auto 7px;
+	}	
+	.bids-left-availables-link-hidden-wrap-visible{
+		margin-left: 10px;
+	}
+	.bids-left-availables-link-hidden-link{		
+		padding: 14px 10px;		
+		margin: 3px auto 0;		
+		font-size: 18px;		
+		text-shadow: 0px 2px 2px #7b3e00;		
+	}
+	.bids-left-availables-link-hidden-link:hover{
+		text-shadow: 0px 1px 1px #7b3e00;		
+	}
+	.bids-content{
+		flex-wrap: wrap;
+	}
+	.bids-left-info{		
+		padding: 0px 0 20px;		
+	}
+	.bids-left-people{			
+		padding: 7px;		
+	}	
+	.bids-left-list-process{
+		padding: 20px;		
+	    height: 100px;	    
+	}
+	.bids-left-list-process:before{		
+		width: 100%;
+		height: 40%;		
+	}
+	.bids-left-list-process-item{
+		margin-bottom: 10px;
+	}
+	.bids-left-list-process-item:last-child{
+		margin-bottom: 0px;
+	}
+	.bids-right{		
+		width: 100%;
+		order: 1;
+	}
+	.bids-right-info{		
+		padding: 20px;		
+		height: 150px;
+		margin-bottom: 15px;	
+	}
+
+	.bids-right-info-timer{
+		font-size: 14px;	
+		margin-bottom: 20px;
+	}
+	.bids-right-info-timer-time{		
+		font-size: 40px;		
+		line-height: 40px;
+	}
+	.bids-right-info-count,
+	.bids-right-info-bank{
+		margin-bottom: 3px;		
+		font-size: 20px;
+	}
+	.bids-right-info-count-span,
+	.bids-right-info-bank-span{
+		font-size: 20px;		
+	}
+	.bids-right-info-list{
+		padding: 15px 0;
+		
+	}
+	.bids-right-info-list-item{
+		margin-bottom: 10px;
+	}	
+	.bids-right-info-max{
+		margin-top: 15px;
+	}
+
+	#amount{
+		margin-bottom: 60px;
+	}
+	.amount-content{		
+		padding: 30px;		
+	}
+	.amount-left{
+		width: 100%;
+		order: 2;
+	}
+	.amount-left-item{
+		margin-bottom: 15px;
+	}
+	.amount-left-item:last-child{
+		margin-bottom: 0px;
+	}	
+	.amount-right{
+		width: 100%;	
+		order: 1;
+		margin-bottom: 20px;	
+	}
+	.amount-right-sum{
+		padding: 10px 45px;
+		font-size: 25px;		
+		margin-bottom: 15px;
+	}
+	.amount-right-info{
+		font-size: 20px;
+	}
+	#money{
+		padding-bottom: 60px;
+	}
+	.money-head{
+		font-size: 17px;		
+		margin-bottom: 30px;		
+	}	
+	.money-icons{
+		flex-wrap: wrap;
+	}
+	.money-icons-text{
+		font-size: 24px;		
+		margin-right: 44px;
+		width: 100%;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.money-icons-icon{		
+		width: 64px;
+		height: 40px;		
+		background-size: 143px;
+		margin-right: 44px;
+	}
+	.money-icons-icon.visa{
+		background-position: -77px -4px;
+	}
+	.money-icons-icon.mastercard{
+		background-position: -4px -54px;
+	}
+	.money-icons-icon.maestro{
+		background-position: -4px -4px;
+	}
+	.money-icons-icon.paypal{
+		background-position: -75px -54px;
+	}
+	.money-icons-icon.switch{
+		background-position: -4px -102px;		
+	}
+
+	footer{
+		border-bottom: 5px solid #cfb878;		
+	}
+	footer:before{		
+	    background-position: -46px -3px;
+	    background-size: 111px;	   
+		width: 34px;
+	    height: 24px;
+	}
+	footer:after{		
+	    background-position: -2px -36px;
+	    background-size: 111px;	    
+		width: 34px;
+	    height: 24px;
+	}
+	.footer-content{
+		padding: 25px 0;		
+		border-top: 3px solid #cfb878;
+	}	
+	.footer-right{
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 660px){
+	.container{
+		width: 98%;		
+	}
+	.irs--flat .irs-handle>i:first-child{
+		width: 18px;		
+	}
+	.irs--flat .irs-line{
+		height: 3px;		
+	}
+	.irs--flat .irs-bar{
+		height: 3px;		
+	}
+	.irs--flat .irs-handle>i:first-child{
+		top: -4px;
+	}
+	.irs{
+		width: 95%;	   
+	}
+	.header-right{
+		display: flex;
+    	justify-content: flex-end;
+    	flex-wrap: wrap;
+	}
+	header{		
+		padding: 11px 0;
+	}	
+	.header-right-link{		
+		margin-left: 33px;
+	}
+	.header-right-link:first-child{
+		margin-left: 0px;
+	}
+	#banners.no-auth{
+		border-top: 5px solid #cfb878;
+	}
+	#banners{		
+		padding: 50px 0 0;
+	}
+	#banners:before{		
+	    width: 34px;
+	    height: 24px;	    
+	    background-position: -124px -8px;
+	    background-size: 157px;	    
+	}
+	#banners:after{		
+	    width: 34px;
+	    height: 24px;	   
+	    background-position: -116px -47px;
+	    background-size: 157px;	    
+	}
+	.banners-img-text.first{
+		width: 100%;		
+		margin: 0px auto 28px;
+	}
+	.banners-img-text.second{		
+		margin: 0 auto 42px;
+	}
+	#steps{
+		margin-bottom: 36px;
+	}	
+	.steps-content{
+		flex-wrap: wrap;
+	}
+	.steps-item{		
+		margin-left: 40px;
+		font-size: 13px;
+		margin-bottom: 20px;
+	}	
+	.steps-item.first:before{
+		content: "1";
+		width: 25px;
+		height: 25px;		
+		left: -35px;		
+	}	
+	.steps-item.second:before{
+		content: "2";
+		width: 25px;
+		height: 25px;		
+		left: -35px;	
+	}	
+	.steps-item.third:before{
+		content: "3";
+		width: 25px;
+		height: 25px;		
+		left: -35px;		
+	}	
+	.clock{		
+		margin-bottom: 40px;
+	}
+	.bids-left{
+		width: 100%;	
+		order: 2;		
+	}
+	.bids-left-head{
+		margin-bottom: 20px;
+		font-size: 20px;		
+	}
+	.bids-left-head-bold{		
+		font-size: 20px;
+	}
+	.bids-left-availables{
+		flex-wrap: wrap;
+	}
+	.bids-left-availables-span{
+		font-size: 22px;		
+	}
+	.bids-left-availables{		
+		padding: 20px;
+	}	
+	.bids-left-availables-link{		
+		width: 100%;  			
+	}	
+	.bids-left-availables-link.first{
+		margin-bottom: 15px;
+	}
+	.bids-left-availables-link-wrap{
+		 height: auto;		 
+	}	
+	.bids-left-availables-link-hidden{		
+		bottom: 59px;
+		width: 100%;
+	}
+	.bids-left-availables-link-hidden-wrap{
+		width: 98%;		
+		padding: 10px 0;
+	}
+	.bids-left-availables-link-hidden-input{
+		padding: 7px 10px;
+		border-radius: 3px;		
+		width: 70%;			
+		margin: 0px auto 7px;
+	}	
+	.bids-left-availables-link-hidden-wrap-visible{
+		margin-left: 10px;
+	}
+	.bids-left-availables-link-hidden-link{		
+		padding: 14px 10px;		
+		margin: 3px auto 0;		
+		font-size: 18px;		
+		text-shadow: 0px 2px 2px #7b3e00;		
+	}
+	.bids-left-availables-link-hidden-link:hover{
+		text-shadow: 0px 1px 1px #7b3e00;		
+	}
+	.bids-content{
+		flex-wrap: wrap;
+	}
+	.bids-left-info{		
+		padding: 0px 0 20px;		
+	}
+	.bids-left-people{			
+		padding: 7px;		
+	}	
+	.bids-left-list-process{
+		padding: 20px;		
+	    height: 100px;	    
+	}
+	.bids-left-list-process:before{		
+		width: 100%;
+		height: 40%;		
+	}
+	.bids-left-list-process-item{
+		margin-bottom: 10px;
+	}
+	.bids-left-list-process-item:last-child{
+		margin-bottom: 0px;
+	}
+	.bids-right{		
+		width: 100%;
+		order: 1;
+	}
+	.bids-right-info{		
+		padding: 20px;		
+		height: 150px;
+		margin-bottom: 15px;	
+	}
+
+	.bids-right-info-timer{
+		font-size: 14px;	
+		margin-bottom: 20px;
+	}
+	.bids-right-info-timer-time{		
+		font-size: 40px;		
+		line-height: 40px;
+	}
+	.bids-right-info-count,
+	.bids-right-info-bank{
+		margin-bottom: 3px;		
+		font-size: 20px;
+	}
+	.bids-right-info-count-span,
+	.bids-right-info-bank-span{
+		font-size: 20px;		
+	}
+	.bids-right-info-list{
+		padding: 15px 0;
+		
+	}
+	.bids-right-info-list-item{
+		margin-bottom: 10px;
+	}	
+	.bids-right-info-max{
+		margin-top: 15px;
+	}
+
+	#amount{
+		margin-bottom: 60px;
+	}
+	.amount-content{		
+		padding: 30px;		
+	}
+	.amount-left{
+		width: 100%;
+		order: 2;
+	}
+	.amount-left-item{
+		margin-bottom: 15px;
+	}
+	.amount-left-item:last-child{
+		margin-bottom: 0px;
+	}	
+	.amount-right{
+		width: 100%;	
+		order: 1;
+		margin-bottom: 20px;	
+	}
+	.amount-right-sum{
+		padding: 10px 45px;
+		font-size: 21px;
+		margin-bottom: 15px;
+	}
+	.amount-right-info{
+		font-size: 20px;
+	}
+	#money{
+		padding-bottom: 60px;
+	}
+	.money-head{
+		font-size: 17px;		
+		margin-bottom: 30px;		
+	}	
+	.money-icons{
+		flex-wrap: wrap;
+	}
+	.money-icons-text{
+		font-size: 24px;		
+		margin-right: 0px;
+		width: 100%;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.money-icons-icon{		
+		width: 64px;
+		height: 40px;		
+		background-size: 143px;
+		margin-right: 44px;
+	}
+	.money-icons-icon.visa{
+		background-position: -77px -4px;
+	}
+	.money-icons-icon.mastercard{
+		background-position: -4px -54px;
+	}
+	.money-icons-icon.maestro{
+		background-position: -4px -4px;
+	}
+	.money-icons-icon.paypal{
+		background-position: -75px -54px;
+	}
+	.money-icons-icon.switch{
+		background-position: -4px -102px;		
+	}
+
+	footer{
+		border-bottom: 5px solid #cfb878;		
+	}
+	footer:before{		
+	    background-position: -46px -3px;
+	    background-size: 111px;	   
+		width: 34px;
+	    height: 24px;
+	}
+	footer:after{		
+	    background-position: -2px -36px;
+	    background-size: 111px;	    
+		width: 34px;
+	    height: 24px;
+	}
+	.footer-content{
+		padding: 25px 0;		
+		border-top: 3px solid #cfb878;
+	}	
+	.footer-right{
+		font-size: 12px;
+	}
 }

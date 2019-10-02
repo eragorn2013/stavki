@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.0">
+	<meta charset="utf-8">
 	<title>Ставки</title>
 </head>
 <body>
@@ -144,10 +146,10 @@
 		</footer>
 	</div>
 	<link rel="stylesheet" type="text/css" href="js/ion/css/ion.rangeSlider.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css?2909191222">
+	<link rel="stylesheet" type="text/css" href="css/style.css?0210191221">
 	<script src="js/jquery/jquery-3.4.1.js"></script>	
 	<script src="js/ion/js/ion.rangeSlider.min.js"></script>
 	<script src="js/nicescroll/jquery.nicescroll.min.js"></script>
-	<script src="js/my.js?2409191705"></script>	
+	<script src="js/my.js?0210191221"></script>	
 </body>
 </html>
